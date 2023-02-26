@@ -15,7 +15,7 @@ export class SlideshowComponent implements OnInit {
     'Push your Coding Experience to the next level!',
     'Improve your clean coding skills',
     'Create new Worlds',
-    'Home-Office makes you more producive'];
+    'Home-Office makes you more productive'];
 
   currentImage = 0;
   showImg = true;

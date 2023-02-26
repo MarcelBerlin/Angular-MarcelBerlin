@@ -23,6 +23,26 @@ header {
 
     img {
         height: 60px;
-        
+
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 }
+
+.headerDark {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);  
+}
+
+.darkLinks {
+    a {
+        color: black;
+    
+        &:hover {
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
