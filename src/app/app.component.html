@@ -1,4 +1,6 @@
 <app-menu [darkMode]="router.url !== '/'"></app-menu>
 <div [class.container]="router.url !== '/'">
+    <a (click)="translate.use('de');">DE</a> |
+    <a (click)="translate.use('en');">EN</a> 
     <router-outlet></router-outlet>
 </div>
